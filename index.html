@@ -21,6 +21,32 @@
     />
   </head>
   <body>
+    <!-- Modal -->
+    <div
+      id="loadStateModal"
+      class="modal fade"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-hidden="true"
+      aria-labelledby="loadStateModalLabel"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-sm modal-fullscreen-sm-down"
+      >
+        <div class="modal-content">
+          <!-- <div class="modal-header"></div> -->
+          <div
+            class="modal-body d-flex justify-content-center align-items-center"
+          >
+            <div class="spinner-border" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
+          <!-- <div class="modal-footer"></div> -->
+        </div>
+      </div>
+    </div>
     <div class="d-flex" id="wrapper">
       <!-- Оборудование -->
       <div
@@ -1950,7 +1976,7 @@
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
     <script src="js/sidebars.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>

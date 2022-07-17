@@ -8,7 +8,7 @@
     <meta name="author" content="" />
     <title>Магазин SSI-PRO | Тепловое</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="../css/styles.css" rel="stylesheet" />
     <link href="../css/sidebars.css" rel="stylesheet" />
@@ -45,1234 +45,1222 @@
       </div>
     </div>
     <div class="d-flex" id="wrapper">
-      <!-- Sidebar-->
-      <div class="border-end bg-white" id="sidebar-wrapper">
-        <div class="sidebar-heading border-bottom bg-light text-center">
-          Оборудование
+      <!-- Оборудование -->
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="sidebarToggle"
+        aria-labelledby="sidebarToggleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="sidebarToggleLabel">Оборудование</h5>
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
         </div>
-        <!-- <div class="list-group list-group-flush">
-          <a
-            class="list-group-item list-group-item-action list-group-item-light p-3"
-            href="#!"
-            >Dashboard</a
-          >
-          <a
-            class="list-group-item list-group-item-action list-group-item-light p-3"
-            href="#!"
-            >Shortcuts</a
-          >
-          <a
-            class="list-group-item list-group-item-action list-group-item-light p-3"
-            href="#!"
-            >Overview</a
-          >
-          <a
-            class="list-group-item list-group-item-action list-group-item-light p-3"
-            href="#!"
-            >Events</a
-          >
-          <a
-            class="list-group-item list-group-item-action list-group-item-light p-3"
-            href="#!"
-            >Profile</a
-          >
-          <a
-            class="list-group-item list-group-item-action list-group-item-light p-3"
-            href="#!"
-            >Status</a
-          >
-        </div> -->
-        <ul class="list-unstyled list-group list-group-flush ps-0">
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#category1"
-              aria-expanded="false"
-            >
-              Тепловое оборудование
-            </button>
-            <div class="collapse" id="category1">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <a
-                    href="#subcat0010"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Пароконвектоматы</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#subcat0008"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Конвекционные печи</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#subcat0015"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Расстоечные шкафы</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#subcat0014"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Плиты (электрические и газовые)</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#subcat0009"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Котлы варочные</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#subcat0016"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Сковороды опрокидывающиеся</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#subcat0011"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Печи конвейерные для пиццы</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#subcat0012"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Печи-коптильни</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#subcat0019"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Шкафы и столы тепловые (для подогрева)</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#subcat0017"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Термомиксеры</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#subcat0018"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Тостеры профессиональные и грили саламандер</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#subcat0013"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Печи на твердом топливе (хосперы)</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Пицца печи</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Фритюрницы и макарановарки</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Жарочные поверхности-изгара</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Лава грили и водяные грили</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Плиты индукционные</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Запасные части и аксессуары</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#category2"
-              aria-expanded="false"
-            >
-              Электромеханическое оборудование
-            </button>
-            <div class="collapse" id="category2">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <a
-                    href="Электромеханическое.html#subcat0030"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Миксеры погружные (ручные)</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Электромеханическое.html#subcat0027"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Картофелечистки и овощечистки</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Электромеханическое.html#subcat0028"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Куттеры</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Электромеханическое.html#subcat0029"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Кухонные процессоры</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Электромеханическое.html#subcat0031"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Миксеры планетарные</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Электромеханическое.html#subcat0032"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Мясорубки</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Электромеханическое.html#subcat0033"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Овощерезки</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Электромеханическое.html#subcat0035"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Протирочные машины</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Электромеханическое.html#subcat0036"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Слайсеры</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Электромеханическое.html#subcat0037"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Соковыжималки</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Электромеханическое.html#subcat0026"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Вакуумные упаковщики</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Электромеханическое.html#subcat0034"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Пилы для мяса и костей</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Электромеханическое.html#subcat0038"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Фаршемешалки</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Электромеханическое.html#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Дополнительное оборудование</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#category3"
-              aria-expanded="false"
-            >
-              Оборудование для фаст-фуда
-            </button>
-            <div class="collapse" id="category3">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Элекрокипятильники</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Тостеры</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Витрины тепловые</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Гриль саламандер</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Аппараты для хот-догов и гамбургеров</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Грили для кур</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Донер аппараты (газовые и электрические)</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Грили контактные</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Грили роликовые</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Жарочные поверхности настольные (изгара)</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Фритюрницы настольные</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Гриль контактные прижимные</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </li>
-          <!-- <li class="border-top my-3"></li> -->
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#category4"
-              aria-expanded="false"
-            >
-              Посудомоечное оборудование
-            </button>
-            <div class="collapse" id="category4">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <a
-                    href="Посудомоечное.html#subcat0002"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Купольные посудомоечные машины</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Посудомоечное.html#subcat0007"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Посудомоечные машины с фронтальной загрузкой</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Посудомоечное.html#subcat0003"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Стаканомоечные машины</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Посудомоечное.html#subcat0006"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Тоннельные посудомоечные машины (конвейерного типа)</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Посудомоечное.html#subcat0004"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Столы входные</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Посудомоечное.html#subcat0005"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Столы выходные</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Посудомоечное.html#subcat0001"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Души предварительной мойки</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#category5"
-              aria-expanded="false"
-            >
-              Холодильное и морозильное оборудование
-            </button>
-            <div class="collapse" id="category5">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <a
-                    href="Холодильное и морозильное.html#subcat0025"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Шкафы однодверные холодильные и морозильные</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Холодильное и морозильное.html#subcat0024"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Шкафы двухдверные холодильные и морозильные</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Холодильное и морозильное.html#subcat0020"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Аппараты шоковой заморозки</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Холодильное и морозильное.html#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Барные холодильники</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Холодильное и морозильное.html#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Винные шкафы</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Холодильное и морозильное.html#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Витрины кондитерские</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Холодильное и морозильное.html#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Лари</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Холодильное и морозильное.html#subcat0023"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Столы для пиццы и салатов</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Холодильное и морозильное.html#subcat0022"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Комбинированные столы/шкафы</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Холодильное и морозильное.html#subcat0021"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Холодильные/морозильные камеры</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="Холодильное и морозильное.html#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Кегераторы</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#category6"
-              aria-expanded="false"
-            >
-              Посуда и кухонный инвентарь
-            </button>
-            <div class="collapse" id="category6">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Столовые приборы</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Посуда столовая</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Посуда барная</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Посуда нейтральная</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Кухонные принадлежности</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Аксессуары</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#category7"
-              aria-expanded="false"
-            >
-              Нейтральное оборудование (изделия из нержавеющей стали)
-            </button>
-            <div class="collapse" id="category7">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Столы и полки</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Стеллажи</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Вытяжные зонты</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Тележки сервировочные</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Мойки и рукомойники (одно, двух и трехсекционные)</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Шкафы</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Стеллажи-шпильки</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Подставки</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#category8"
-              aria-expanded="false"
-            >
-              Шведский стол
-            </button>
-            <div class="collapse" id="category8">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Мармиты</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Диспенсеры</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Лампы для подогрева блюд</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Поверхности для подогрева блюд</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Салат-бары тепловые и холодильные</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#category9"
-              aria-expanded="false"
-            >
-              Кондитерское оборудование
-            </button>
-            <div class="collapse" id="category9">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Витрины</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Противни и подносы</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Формы для выпечки</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Машина для взбивания сливок</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Аксессуары</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#category10"
-              aria-expanded="false"
-            >
-              Хлебопекарное оборудование
-            </button>
-            <div class="collapse" id="category10">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Подовые печи</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Ротационные печи</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Печи комбинированные</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Тестомесы</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Тестораскаточные машины</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Машины для пасты</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Мукопросеиватели</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Тестоделители</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Тестоокруглители</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#category11"
-              aria-expanded="false"
-            >
-              Барное оборудование
-            </button>
-            <div class="collapse" id="category11">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Кофемашины</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Кофемолки</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Льдогенераторы</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Охладители бокалов</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Сокоохладители и граниторы</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Шоколадные фонтаны</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Диспенсеры для мюсли</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Барные комбайны</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Барные модули</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Блендеры профессиональные</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Измельчитель льда</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Миксеры для молочных коктейлей</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#category12"
-              aria-expanded="false"
-            >
-              Оснащение гостиниц
-            </button>
-            <div class="collapse" id="category12">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <!-- <li>
+        <div class="offcanvas-body">
+          <ul class="list-unstyled list-group list-group-flush ps-0">
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#category1"
+                aria-expanded="false"
+              >
+                Тепловое оборудование
+              </button>
+              <div class="collapse" id="category1">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <a
+                      href="categories/Тепловое.html#subcat0010"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Пароконвектоматы</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Тепловое.html#subcat0008"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Конвекционные печи</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Тепловое.html#subcat0015"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Расстоечные шкафы</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Тепловое.html#subcat0014"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Плиты (электрические и газовые)</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Тепловое.html#subcat0009"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Котлы варочные</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Тепловое.html#subcat0016"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Сковороды опрокидывающиеся</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Тепловое.html#subcat0011"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Печи конвейерные для пиццы</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Тепловое.html#subcat0012"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Печи-коптильни</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Тепловое.html#subcat0019"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Шкафы и столы тепловые (для подогрева)</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Тепловое.html#subcat0017"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Термомиксеры</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Тепловое.html#subcat0018"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Тостеры профессиональные и грили саламандер</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Тепловое.html#subcat0013"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Печи на твердом топливе (хосперы)</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Тепловое.html#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Пицца печи</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Тепловое.html#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Фритюрницы и макарановарки</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Тепловое.html#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Жарочные поверхности-изгара</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Тепловое.html#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Лава грили и водяные грили</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Тепловое.html#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Плиты индукционные</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Тепловое.html#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Запасные части и аксессуары</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#category2"
+                aria-expanded="false"
+              >
+                Электромеханическое оборудование
+              </button>
+              <div class="collapse" id="category2">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <a
+                      href="categories/Электромеханическое.html#subcat0030"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Миксеры погружные (ручные)</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Электромеханическое.html#subcat0027"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Картофелечистки и овощечистки</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Электромеханическое.html#subcat0028"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Куттеры</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Электромеханическое.html#subcat0029"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Кухонные процессоры</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Электромеханическое.html#subcat0031"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Миксеры планетарные</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Электромеханическое.html#subcat0032"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Мясорубки</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Электромеханическое.html#subcat0033"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Овощерезки</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Электромеханическое.html#subcat0035"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Протирочные машины</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Электромеханическое.html#subcat0036"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Слайсеры</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Электромеханическое.html#subcat0037"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Соковыжималки</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Электромеханическое.html#subcat0026"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Вакуумные упаковщики</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Электромеханическое.html#subcat0034"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Пилы для мяса и костей</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Электромеханическое.html#subcat0038"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Фаршемешалки</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Электромеханическое.html#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Дополнительное оборудование</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#category3"
+                aria-expanded="false"
+              >
+                Оборудование для фаст-фуда
+              </button>
+              <div class="collapse" id="category3">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Элекрокипятильники</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Тостеры</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Витрины тепловые</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Гриль саламандер</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Аппараты для хот-догов и гамбургеров</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Грили для кур</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Донер аппараты (газовые и электрические)</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Грили контактные</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Грили роликовые</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Жарочные поверхности настольные (изгара)</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Фритюрницы настольные</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Гриль контактные прижимные</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <!-- <li class="border-top my-3"></li> -->
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#category4"
+                aria-expanded="false"
+              >
+                Посудомоечное оборудование
+              </button>
+              <div class="collapse" id="category4">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <a
+                      href="categories/Посудомоечное.html#subcat0002"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Купольные посудомоечные машины</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Посудомоечное.html#subcat0007"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Посудомоечные машины с фронтальной загрузкой</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Посудомоечное.html#subcat0003"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Стаканомоечные машины</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Посудомоечное.html#subcat0006"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Тоннельные посудомоечные машины (конвейерного типа)</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Посудомоечное.html#subcat0004"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Столы входные</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Посудомоечное.html#subcat0005"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Столы выходные</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Посудомоечное.html#subcat0001"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Души предварительной мойки</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#category5"
+                aria-expanded="false"
+              >
+                Холодильное и морозильное оборудование
+              </button>
+              <div class="collapse" id="category5">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <a
+                      href="categories/Холодильное и морозильное.html#subcat0025"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Шкафы однодверные холодильные и морозильные</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Холодильное и морозильное.html#subcat0024"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Шкафы двухдверные холодильные и морозильные</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Холодильное и морозильное.html#subcat0020"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Аппараты шоковой заморозки</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Холодильное и морозильное.html#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Барные холодильники</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Холодильное и морозильное.html#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Винные шкафы</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Холодильное и морозильное.html#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Витрины кондитерские</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Холодильное и морозильное.html#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Лари</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Холодильное и морозильное.html#subcat0023"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Столы для пиццы и салатов</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Холодильное и морозильное.html#subcat0022"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Комбинированные столы/шкафы</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Холодильное и морозильное.html#subcat0021"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Холодильные/морозильные камеры</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="categories/Холодильное и морозильное.html#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Кегераторы</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#category6"
+                aria-expanded="false"
+              >
+                Посуда и кухонный инвентарь
+              </button>
+              <div class="collapse" id="category6">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Столовые приборы</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Посуда столовая</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Посуда барная</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Посуда нейтральная</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Кухонные принадлежности</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Аксессуары</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#category7"
+                aria-expanded="false"
+              >
+                Нейтральное оборудование (изделия из нержавеющей стали)
+              </button>
+              <div class="collapse" id="category7">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Столы и полки</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Стеллажи</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Вытяжные зонты</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Тележки сервировочные</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Мойки и рукомойники (одно, двух и трехсекционные)</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Шкафы</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Стеллажи-шпильки</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Подставки</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#category8"
+                aria-expanded="false"
+              >
+                Шведский стол
+              </button>
+              <div class="collapse" id="category8">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Мармиты</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Диспенсеры</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Лампы для подогрева блюд</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Поверхности для подогрева блюд</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Салат-бары тепловые и холодильные</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#category9"
+                aria-expanded="false"
+              >
+                Кондитерское оборудование
+              </button>
+              <div class="collapse" id="category9">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Витрины</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Противни и подносы</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Формы для выпечки</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Машина для взбивания сливок</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Аксессуары</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#category10"
+                aria-expanded="false"
+              >
+                Хлебопекарное оборудование
+              </button>
+              <div class="collapse" id="category10">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Подовые печи</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Ротационные печи</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Печи комбинированные</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Тестомесы</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Тестораскаточные машины</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Машины для пасты</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Мукопросеиватели</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Тестоделители</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Тестоокруглители</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#category11"
+                aria-expanded="false"
+              >
+                Барное оборудование
+              </button>
+              <div class="collapse" id="category11">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Кофемашины</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Кофемолки</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Льдогенераторы</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Охладители бокалов</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Сокоохладители и граниторы</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Шоколадные фонтаны</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Диспенсеры для мюсли</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Барные комбайны</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Барные модули</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Блендеры профессиональные</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Измельчитель льда</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Миксеры для молочных коктейлей</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#category12"
+                aria-expanded="false"
+              >
+                Оснащение гостиниц
+              </button>
+              <div class="collapse" id="category12">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <!-- <li>
                   <a
                     href="#"
                     class="link-dark d-inline-flex text-decoration-none rounded"
                     >Profile</a
                   >
                 </li> -->
-              </ul>
-            </div>
-          </li>
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#category13"
-              aria-expanded="false"
-            >
-              Прачечное оборудование
-            </button>
-            <div class="collapse" id="category13">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Гладильно-сушильные катки</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Гладильные катки</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Гладильные прессы</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Гладильные столы</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Парогенераторы</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Пароманекены</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Стирально-сушильные машины</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Стиральные машины</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Сушильные машины</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Упаковщики для белья</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Вспомогательное оборудование для прачечной</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#category14"
-              aria-expanded="false"
-            >
-              Оборудование для транспортировки и складирования
-            </button>
-            <div class="collapse" id="category14">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Термоконтейнера</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Термобоксы</a
-                  >
-                </li>
-                <li class="border-top my-1"></li>
-                <li>
-                  <a
-                    href="#"
-                    class="link-dark d-inline-flex text-decoration-none rounded"
-                    >Банкетные тележки с охлаждением и подогревом</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#category15"
-              aria-expanded="false"
-            >
-              Запчасти
-            </button>
-            <div class="collapse" id="category15">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <!-- <li>
+                </ul>
+              </div>
+            </li>
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#category13"
+                aria-expanded="false"
+              >
+                Прачечное оборудование
+              </button>
+              <div class="collapse" id="category13">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Гладильно-сушильные катки</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Гладильные катки</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Гладильные прессы</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Гладильные столы</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Парогенераторы</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Пароманекены</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Стирально-сушильные машины</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Стиральные машины</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Сушильные машины</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Упаковщики для белья</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Вспомогательное оборудование для прачечной</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#category14"
+                aria-expanded="false"
+              >
+                Оборудование для транспортировки и складирования
+              </button>
+              <div class="collapse" id="category14">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Термоконтейнера</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Термобоксы</a
+                    >
+                  </li>
+                  <li class="border-top my-1"></li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >Банкетные тележки с охлаждением и подогревом</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#category15"
+                aria-expanded="false"
+              >
+                Запчасти
+              </button>
+              <div class="collapse" id="category15">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <!-- <li>
                   <a
                     href="#"
                     class="link-dark d-inline-flex text-decoration-none rounded"
                     >Profile</a
                   >
                 </li> -->
-              </ul>
-            </div>
-          </li>
-        </ul>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
       <!-- Page content wrapper-->
       <div id="page-content-wrapper">
-        <!-- Top navigation-->
+        <!-- навигация -->
         <nav
           class="navbar navbar-expand-lg navbar-light bg-light border-bottom"
+          id="home"
         >
           <div class="container-fluid">
-            <button class="btn btn-dark" id="sidebarToggle">
+            <button
+              class="btn btn-dark"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#sidebarToggle"
+              aria-controls="sidebarToggle"
+            >
               Все категории
             </button>
             <button
@@ -14178,7 +14166,7 @@
 
         <!-- Footer-->
         <div class="container sean-footer">
-          <footer class="py-3 my-4">
+          <footer class="d-flex-direction-column py-3 my-4">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
               <li class="nav-item">
                 <a href="../index.html#home" class="nav-link px-2">Главная</a>
@@ -14197,7 +14185,7 @@
                 >
               </li>
             </ul>
-            <p class="text-center text-muted">&copy; 2022. ООО "SSI-PRO"</p>
+            <p class="text-muted">&copy; 2022. ООО "SSI-PRO"</p>
             <p class="d-flex align-items-center justify-content-center">
               <a
                 href="../index.html#home"
@@ -14205,6 +14193,12 @@
               >
                 <img src="../assets/logo.svg" alt="logo" height="40" />
               </a>
+            </p>
+            <p>
+              Developed by
+              <a href="https://www.linkedin.com/in/uurunov" id="developedBy"
+                >uurunov</a
+              >
             </p>
           </footer>
         </div>

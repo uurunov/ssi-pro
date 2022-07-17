@@ -11697,3 +11697,18 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: -32rem;
   }
 }
+
+@media (max-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}

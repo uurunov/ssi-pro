@@ -1,0 +1,3307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="loading="lazy" width=device-loading="lazy"
+    width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Магазин SSI-PRO | Посудомоечное</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../css/styles.css" rel="stylesheet" />
+    <link href="../css/sidebars.css" rel="stylesheet" />
+    <link href="../css/custom.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Modal -->
+    <div
+      id="loadStateModal"
+      class="modal fade"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-sm modal-fullscreen-sm-down"
+      >
+        <div class="modal-content">
+          <!-- <div class="modal-header"></div> -->
+          <div class="modal-body">
+            <div class="d-flex justify-content-center bg-light">
+              <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="modal-footer"></div> -->
+        </div>
+      </div>
+    </div>
+    <div class="d-flex" id="wrapper">
+      <!-- Sidebar-->
+      <div class="border-end bg-white" id="sidebar-wrapper">
+        <div class="sidebar-heading border-bottom bg-light text-center">
+          Оборудование
+        </div>
+        <!-- <div class="list-group list-group-flush">
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#!"
+            >Dashboard</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#!"
+            >Shortcuts</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#!"
+            >Overview</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#!"
+            >Events</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#!"
+            >Profile</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#!"
+            >Status</a
+          >
+        </div> -->
+        <ul class="list-unstyled list-group list-group-flush ps-0">
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category1"
+              aria-expanded="false"
+            >
+              Тепловое оборудование
+            </button>
+            <div class="collapse" id="category1">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0010"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Пароконвектоматы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0008"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Конвекционные печи</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0015"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Расстоечные шкафы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0014"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Плиты (электрические и газовые)</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0009"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Котлы варочные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0016"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Сковороды опрокидывающиеся</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0011"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Печи конвейерные для пиццы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0012"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Печи-коптильни</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0019"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Шкафы и столы тепловые (для подогрева)</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0017"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Термомиксеры</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0018"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Тостеры профессиональные и грили саламандер</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0013"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Печи на твердом топливе (хосперы)</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Пицца печи</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Фритюрницы и макарановарки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Жарочные поверхности-изгара</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Лава грили и водяные грили</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Плиты индукционные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Запасные части и аксессуары</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category2"
+              aria-expanded="false"
+            >
+              Электромеханическое оборудование
+            </button>
+            <div class="collapse" id="category2">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0030"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Миксеры погружные (ручные)</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0027"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Картофелечистки и овощечистки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0028"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Куттеры</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0029"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Кухонные процессоры</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0031"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Миксеры планетарные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0032"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Мясорубки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0033"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Овощерезки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0035"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Протирочные машины</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0036"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Слайсеры</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0037"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Соковыжималки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0026"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Вакуумные упаковщики</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0034"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Пилы для мяса и костей</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0038"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Фаршемешалки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Дополнительное оборудование</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category3"
+              aria-expanded="false"
+            >
+              Оборудование для фаст-фуда
+            </button>
+            <div class="collapse" id="category3">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Элекрокипятильники</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Тостеры</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Витрины тепловые</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Гриль саламандер</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Аппараты для хот-догов и гамбургеров</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Грили для кур</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Донер аппараты (газовые и электрические)</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Грили контактные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Грили роликовые</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Жарочные поверхности настольные (изгара)</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Фритюрницы настольные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Гриль контактные прижимные</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!-- <li class="border-top my-3"></li> -->
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category4"
+              aria-expanded="false"
+            >
+              Посудомоечное оборудование
+            </button>
+            <div class="collapse" id="category4">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#subcat0002"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Купольные посудомоечные машины</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#subcat0007"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Посудомоечные машины с фронтальной загрузкой</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#subcat0003"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Стаканомоечные машины</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#subcat0006"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Тоннельные посудомоечные машины (конвейерного типа)</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#subcat0004"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Столы входные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#subcat0005"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Столы выходные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#subcat0001"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Души предварительной мойки</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category5"
+              aria-expanded="false"
+            >
+              Холодильное и морозильное оборудование
+            </button>
+            <div class="collapse" id="category5">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="Холодильное и морозильное.html#subcat0025"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Шкафы однодверные холодильные и морозильные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Холодильное и морозильное.html#subcat0024"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Шкафы двухдверные холодильные и морозильные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Холодильное и морозильное.html#subcat0020"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Аппараты шоковой заморозки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Холодильное и морозильное.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Барные холодильники</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Холодильное и морозильное.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Винные шкафы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Холодильное и морозильное.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Витрины кондитерские</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Холодильное и морозильное.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Лари</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Холодильное и морозильное.html#subcat0023"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Столы для пиццы и салатов</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Холодильное и морозильное.html#subcat0022"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Комбинированные столы/шкафы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Холодильное и морозильное.html#subcat0021"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Холодильные/морозильные камеры</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Холодильное и морозильное.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Кегераторы</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category6"
+              aria-expanded="false"
+            >
+              Посуда и кухонный инвентарь
+            </button>
+            <div class="collapse" id="category6">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Столовые приборы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Посуда столовая</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Посуда барная</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Посуда нейтральная</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Кухонные принадлежности</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Аксессуары</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category7"
+              aria-expanded="false"
+            >
+              Нейтральное оборудование (изделия из нержавеющей стали)
+            </button>
+            <div class="collapse" id="category7">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Столы и полки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Стеллажи</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Вытяжные зонты</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Тележки сервировочные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Мойки и рукомойники (одно, двух и трехсекционные)</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Шкафы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Стеллажи-шпильки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Подставки</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category8"
+              aria-expanded="false"
+            >
+              Шведский стол
+            </button>
+            <div class="collapse" id="category8">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Мармиты</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Диспенсеры</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Лампы для подогрева блюд</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Поверхности для подогрева блюд</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Салат-бары тепловые и холодильные</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category9"
+              aria-expanded="false"
+            >
+              Кондитерское оборудование
+            </button>
+            <div class="collapse" id="category9">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Витрины</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Противни и подносы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Формы для выпечки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Машина для взбивания сливок</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Аксессуары</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category10"
+              aria-expanded="false"
+            >
+              Хлебопекарное оборудование
+            </button>
+            <div class="collapse" id="category10">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Подовые печи</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Ротационные печи</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Печи комбинированные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Тестомесы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Тестораскаточные машины</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Машины для пасты</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Мукопросеиватели</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Тестоделители</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Тестоокруглители</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category11"
+              aria-expanded="false"
+            >
+              Барное оборудование
+            </button>
+            <div class="collapse" id="category11">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Кофемашины</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Кофемолки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Льдогенераторы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Охладители бокалов</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Сокоохладители и граниторы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Шоколадные фонтаны</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Диспенсеры для мюсли</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Барные комбайны</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Барные модули</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Блендеры профессиональные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Измельчитель льда</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Миксеры для молочных коктейлей</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category12"
+              aria-expanded="false"
+            >
+              Оснащение гостиниц
+            </button>
+            <div class="collapse" id="category12">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <!-- <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Profile</a
+                  >
+                </li> -->
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category13"
+              aria-expanded="false"
+            >
+              Прачечное оборудование
+            </button>
+            <div class="collapse" id="category13">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Гладильно-сушильные катки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Гладильные катки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Гладильные прессы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Гладильные столы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Парогенераторы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Пароманекены</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Стирально-сушильные машины</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Стиральные машины</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Сушильные машины</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Упаковщики для белья</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Вспомогательное оборудование для прачечной</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category14"
+              aria-expanded="false"
+            >
+              Оборудование для транспортировки и складирования
+            </button>
+            <div class="collapse" id="category14">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Термоконтейнера</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Термобоксы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Банкетные тележки с охлаждением и подогревом</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category15"
+              aria-expanded="false"
+            >
+              Запчасти
+            </button>
+            <div class="collapse" id="category15">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <!-- <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Profile</a
+                  >
+                </li> -->
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- Page content wrapper-->
+      <div id="page-content-wrapper">
+        <!-- Top navigation-->
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light border-bottom"
+        >
+          <div class="container-fluid">
+            <button class="btn btn-dark" id="sidebarToggle">
+              Все категории
+            </button>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="categories"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="../index.html#home">Главная</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html#aboutUs">О нас</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html#ourServices"
+                    >Услуги</a
+                  >
+                </li>
+                <!-- <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarDropdown"
+                    href="services.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Услуги</a
+                  >
+                  <div
+                    class="dropdown-menu dropdown-menu-end"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <a class="dropdown-item" href="services.html">Услуга1</a>
+                    <a class="dropdown-item" href="services.html">Услуга2</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="services.html">Услуга3</a>
+                  </div>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html#contactUs"
+                    >Контакты</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5">
+          <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-white">
+              <h1 class="display-4 fw-bolder">Магазин SSI-PRO</h1>
+              <p class="lead fw-normal text-white-50 mb-0">
+                Посудомоечное оборудование
+              </p>
+            </div>
+          </div>
+        </header>
+
+        <!-- Section 3 -->
+        <section class="py-5">
+          <div class="container px-4 px-lg-5 mt-5">
+            <h1 class="display-4" id="subcat0002">
+              Купольные посудомоечные машины
+            </h1>
+            <p class="lead">Посудомоечное оборудование</p>
+            <div
+              class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+            >
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Купольные/images/Купольная посудомоечная машина Apach Cook Line AC800 (ST3800RU).jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Купольная посудомоечная машина Apach Cook Line AC800
+                        (ST3800RU)
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Купольные/Купольная посудомоечная машина Apach Cook Line AC800 (ST3800RU).pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0009"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0009"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0009"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0009">
+                            Купольная посудомоечная машина Apach Cook Line AC800
+                            (ST3800RU)
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Купольные/Купольная посудомоечная машина Apach Cook Line AC800 (ST3800RU).pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Купольные/images/Купольная посудомоечная машина OZTI OBM 1080D RT.png"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Купольная посудомоечная машина OZTI OBM 1080D RT
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Купольные/Купольная посудомоечная машина OZTI OBM 1080D RT.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0010"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0010"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0010"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0010">
+                            Купольная посудомоечная машина OZTI OBM 1080D RT
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Купольные/Купольная посудомоечная машина OZTI OBM 1080D RT.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Купольные/images/Купольная посудомоечная машина OZTI OBM 1080D.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Купольная посудомоечная машина OZTI OBM 1080D
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Купольные/Купольная посудомоечная машина OZTI OBM 1080D.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0011"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0011"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0011"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0011">
+                            Купольная посудомоечная машина OZTI OBM 1080D
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Купольные/Купольная посудомоечная машина OZTI OBM 1080D.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Купольные/images/Купольная посудомоечная машина Tatra TW.H50+DR.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Купольная посудомоечная машина Tatra TW.H50+DR
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Купольные/Купольная посудомоечная машина Tatra TW.H50+DR.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0012"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0012"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0012"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0012">
+                            Купольная посудомоечная машина Tatra TW.H50+DR
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Купольные/Купольная посудомоечная машина Tatra TW.H50+DR.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container px-4 px-lg-5 mt-5">
+            <h1 class="display-4" id="subcat0007">
+              Посудомоечные машины с фронтальной загрузкой
+            </h1>
+            <p class="lead">Посудомоечное оборудование</p>
+            <div
+              class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+            >
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Фронтальной загрузка/images/Посудомоечная машина Omniwash Jolly 50 T DD.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Посудомоечная машина Omniwash Jolly 50 T DD
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Фронтальной загрузка/Посудомоечная машина Omniwash Jolly 50 T DD.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0026"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0026"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0026"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0026">
+                            Посудомоечная машина Omniwash Jolly 50 T DD
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Фронтальной загрузка/Посудомоечная машина Omniwash Jolly 50 T DD.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Фронтальной загрузка/images/Посудомоечная машина с фронтальной загрузкой Apach AF500 (917968).png"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Посудомоечная машина с фронтальной загрузкой Apach AF500
+                        (917968)
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Фронтальной загрузка/Посудомоечная машина с фронтальной загрузкой Apach AF500 (917968).pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0027"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0027"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0027"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0027">
+                            Посудомоечная машина с фронтальной загрузкой Apach
+                            AF500 (917968)
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Фронтальной загрузка/Посудомоечная машина с фронтальной загрузкой Apach AF500 (917968).pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Фронтальной загрузка/images/Посудомоечная машина с фронтальной загрузкой OZTI 0710.00500.10.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Посудомоечная машина с фронтальной загрузкой OZTI
+                        0710.00500.10
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Фронтальной загрузка/Посудомоечная машина с фронтальной загрузкой OZTI 0710.00500.10.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0028"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0028"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0028"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0028">
+                            Посудомоечная машина с фронтальной загрузкой OZTI
+                            0710.00500.10
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Фронтальной загрузка/Посудомоечная машина с фронтальной загрузкой OZTI 0710.00500.10.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Фронтальной загрузка/images/Посудомоечная машина с фронтальной загрузкой Tatra TW.F50+DR+DD.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Посудомоечная машина с фронтальной загрузкой Tatra
+                        TW.F50+DR+DD
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Фронтальной загрузка/Посудомоечная машина с фронтальной загрузкой Tatra TW.F50+DR+DD.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0029"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0029"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0029"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0029">
+                            Посудомоечная машина с фронтальной загрузкой Tatra
+                            TW.F50+DR+DD
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Фронтальной загрузка/Посудомоечная машина с фронтальной загрузкой Tatra TW.F50+DR+DD.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container px-4 px-lg-5 mt-5">
+            <h1 class="display-4" id="subcat0003">Стаканомоечные машины</h1>
+            <p class="lead">Посудомоечное оборудование</p>
+            <div
+              class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+            >
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Стаканомоечные/images/МАШИНА СТАКАНОМОЕЧНАЯ APACH AF400 ФРОНТАЛЬНАЯ.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        МАШИНА СТАКАНОМОЕЧНАЯ APACH AF400 ФРОНТАЛЬНАЯ
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Стаканомоечные/МАШИНА СТАКАНОМОЕЧНАЯ APACH AF400 ФРОНТАЛЬНАЯ.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0014"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0014"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0014"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0014">
+                            МАШИНА СТАКАНОМОЕЧНАЯ APACH AF400 ФРОНТАЛЬНАЯ
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Стаканомоечные/МАШИНА СТАКАНОМОЕЧНАЯ APACH AF400 ФРОНТАЛЬНАЯ.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Стаканомоечные/images/Стаканомоечная машина Ozti 073M.00000.AD.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Стаканомоечная машина Ozti 073M.00000.AD
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Стаканомоечные/Стаканомоечная машина Ozti 073M.00000.AD.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0015"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0015"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0015"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0015">
+                            Стаканомоечная машина Ozti 073M.00000.AD
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Стаканомоечные/Стаканомоечная машина Ozti 073M.00000.AD.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container px-4 px-lg-5 mt-5">
+            <h1 class="display-4" id="subcat0006">
+              Тоннельные посудомоечные машины (конвейерного типа)
+            </h1>
+            <p class="lead">Посудомоечное оборудование</p>
+            <div
+              class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+            >
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Тоннельные/images/Тоннельная посудомоечная машина OZTI OBK 1500.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Тоннельная посудомоечная машина OZTI OBK 1500
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Тоннельные/Тоннельная посудомоечная машина OZTI OBK 1500.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0024"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0024"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0024"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0024">
+                            Тоннельная посудомоечная машина OZTI OBK 1500
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Тоннельные/Тоннельная посудомоечная машина OZTI OBK 1500.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Тоннельные/images/Тоннельная посудомоечная машина OZTI OBK 2000.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Тоннельная посудомоечная машина OZTI OBK 2000
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Тоннельные/Тоннельная посудомоечная машина OZTI OBK 2000.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0024"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0024"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0024"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0024">
+                            Тоннельная посудомоечная машина OZTI OBK 2000
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Тоннельные/Тоннельная посудомоечная машина OZTI OBK 2000.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container px-4 px-lg-5 mt-5">
+            <h1 class="display-4" id="subcat0004">Столы входные</h1>
+            <p class="lead">Посудомоечное оборудование</p>
+            <div
+              class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+            >
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Столы входные/images/СТОЛ ДЛЯ ГРЯЗНОЙ ПОСУДЫ KAYMAN ДЛЯ П М TATRA СПМ-121 0907 ЛЕВЫЙ.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        СТОЛ ДЛЯ ГРЯЗНОЙ ПОСУДЫ KAYMAN ДЛЯ П М TATRA СПМ-121
+                        0907 ЛЕВЫЙ
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Столы входные/СТОЛ ДЛЯ ГРЯЗНОЙ ПОСУДЫ KAYMAN ДЛЯ П М TATRA СПМ-121 0907 ЛЕВЫЙ.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0017"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0017"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0017"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0017">
+                            СТОЛ ДЛЯ ГРЯЗНОЙ ПОСУДЫ KAYMAN ДЛЯ П М TATRA СПМ-121
+                            0907 ЛЕВЫЙ
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Столы входные/СТОЛ ДЛЯ ГРЯЗНОЙ ПОСУДЫ KAYMAN ДЛЯ П М TATRA СПМ-121 0907 ЛЕВЫЙ.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Столы входные/images/СТОЛ ДЛЯ ГРЯЗНОЙ ПОСУДЫ KAYMAN ДЛЯ П М TATRA СПМ-123 1207 ЛЕВЫЙ.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        СТОЛ ДЛЯ ГРЯЗНОЙ ПОСУДЫ KAYMAN ДЛЯ П М TATRA СПМ-123
+                        1207 ЛЕВЫЙ
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Столы входные/СТОЛ ДЛЯ ГРЯЗНОЙ ПОСУДЫ KAYMAN ДЛЯ П М TATRA СПМ-123 1207 ЛЕВЫЙ.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0018"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0018"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0018"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0018">
+                            СТОЛ ДЛЯ ГРЯЗНОЙ ПОСУДЫ KAYMAN ДЛЯ П М TATRA СПМ-123
+                            1207 ЛЕВЫЙ
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Столы входные/СТОЛ ДЛЯ ГРЯЗНОЙ ПОСУДЫ KAYMAN ДЛЯ П М TATRA СПМ-123 1207 ЛЕВЫЙ.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Столы входные/images/СТОЛ ДЛЯ ПОСУДОМОЕЧНОЙ МАШИНЫ KAYMAN СПМ-111 1207 Л.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        СТОЛ ДЛЯ ПОСУДОМОЕЧНОЙ МАШИНЫ KAYMAN СПМ-111 1207 Л
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Столы входные/СТОЛ ДЛЯ ПОСУДОМОЕЧНОЙ МАШИНЫ KAYMAN СПМ-111 1207 Л.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0019"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0019"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0019"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0019">
+                            СТОЛ ДЛЯ ПОСУДОМОЕЧНОЙ МАШИНЫ KAYMAN СПМ-111 1207 Л
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Столы входные/СТОЛ ДЛЯ ПОСУДОМОЕЧНОЙ МАШИНЫ KAYMAN СПМ-111 1207 Л.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container px-4 px-lg-5 mt-5">
+            <h1 class="display-4" id="subcat0005">Столы выходные</h1>
+            <p class="lead">Посудомоечное оборудование</p>
+            <div
+              class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+            >
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Столы выходные/images/СТОЛ ДЛЯ ЧИСТОЙ ПОСУДЫ KAYMAN ДЛЯ П М TATRA СПМ-122 0907 ЛЕВЫЙ.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        СТОЛ ДЛЯ ЧИСТОЙ ПОСУДЫ KAYMAN ДЛЯ П М TATRA СПМ-122 0907
+                        ЛЕВЫЙ
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Столы выходные/СТОЛ ДЛЯ ЧИСТОЙ ПОСУДЫ KAYMAN ДЛЯ П М TATRA СПМ-122 0907 ЛЕВЫЙ.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0021"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0021"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0021"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0021">
+                            СТОЛ ДЛЯ ЧИСТОЙ ПОСУДЫ KAYMAN ДЛЯ П М TATRA СПМ-122
+                            0907 ЛЕВЫЙ
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Столы выходные/СТОЛ ДЛЯ ЧИСТОЙ ПОСУДЫ KAYMAN ДЛЯ П М TATRA СПМ-122 0907 ЛЕВЫЙ.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container px-4 px-lg-5 mt-5">
+            <h1 class="display-4" id="subcat0001">
+              Выдвижные и души предварительной мойки
+            </h1>
+            <p class="lead">Посудомоечное оборудование</p>
+            <div
+              class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+            >
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Выдвижные и души/images/Устройство душирующее CanCan CC.GT06.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Устройство душирующее CanCan CC.GT06
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Выдвижные и души/Устройство душирующее CanCan CC.GT06.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0001"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0001"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0001"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0001">
+                            Устройство душирующее CanCan CC.GT06
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Выдвижные и души/Устройство душирующее CanCan CC.GT06.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/no-image.png"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Устройство душирующее CanCan CC.GT15
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Выдвижные и души/Устройство душирующее CanCan CC.GT15.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0002"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0002"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0002"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0002">
+                            Устройство душирующее CanCan CC.GT15
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Выдвижные и души/Устройство душирующее CanCan CC.GT15.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Выдвижные и души/images/Устройство душирующее CanCan CC.MT01.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Устройство душирующее CanCan CC.MT01
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Выдвижные и души/Устройство душирующее CanCan CC.MT01.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0003"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0003"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0003"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0003">
+                            Устройство душирующее CanCan CC.MT01
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Выдвижные и души/Устройство душирующее CanCan CC.MT01.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Выдвижные и души/images/Устройство душирующее CanCan CC.MT02.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Устройство душирующее CanCan CC.MT02
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Выдвижные и души/Устройство душирующее CanCan CC.MT02.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0004"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0004"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0004"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0004">
+                            Устройство душирующее CanCan CC.MT02
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Выдвижные и души/Устройство душирующее CanCan CC.MT02.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Выдвижные и души/images/Устройство душирующее Hurakan HKN-HR10 возвратное.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Устройство душирующее Hurakan HKN-HR10 возвратное
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Выдвижные и души/Устройство душирующее Hurakan HKN-HR10 возвратное.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0005"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0005"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0005"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0005">
+                            Устройство душирующее Hurakan HKN-HR10 возвратное
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Выдвижные и души/Устройство душирующее Hurakan HKN-HR10 возвратное.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Выдвижные и души/images/Устройство душирующее Hurakan HKN-PRF02.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Устройство душирующее Hurakan HKN-PRF02
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Выдвижные и души/Устройство душирующее Hurakan HKN-PRF02.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0006"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0006"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0006"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0006">
+                            Устройство душирующее Hurakan HKN-PRF02
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Выдвижные и души/Устройство душирующее Hurakan HKN-PRF02.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Посудомоечное/Выдвижные и души/images/Устройство душирующее Hurakan HKN-PRF03.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Устройство душирующее Hurakan HKN-PRF03
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Посудомоечное/Выдвижные и души/Устройство душирующее Hurakan HKN-PRF03.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0007"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0007"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0007"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0007">
+                            Устройство душирующее Hurakan HKN-PRF03
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Посудомоечное/Выдвижные и души/Устройство душирующее Hurakan HKN-PRF03.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="b-example-divider"></div>
+
+        <!-- Footer-->
+        <div class="container sean-footer">
+          <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item">
+                <a href="../index.html#home" class="nav-link px-2">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a href="../index.html#aboutUs" class="nav-link px-2">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a href="../index.html#ourServices" class="nav-link px-2"
+                  >Услуги</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="../index.html#contactUs" class="nav-link px-2"
+                  >Контакты</a
+                >
+              </li>
+            </ul>
+            <p class="text-center text-muted">&copy; 2022. ООО "SSI-PRO"</p>
+            <p class="d-flex align-items-center justify-content-center">
+              <a
+                href="../index.html#home"
+                class="link-dark text-decoration-none"
+              >
+                <img src="../assets/logo.svg" alt="logo" height="40" />
+              </a>
+            </p>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="../js/scripts.js"></script>
+    <script src="../js/sidebars.js"></script>
+  </body>
+</html>

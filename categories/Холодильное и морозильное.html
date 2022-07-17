@@ -1,0 +1,3803 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="loading="lazy" width=device-loading="lazy"
+    width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Магазин SSI-PRO | Холодильное и морозильное</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../css/styles.css" rel="stylesheet" />
+    <link href="../css/sidebars.css" rel="stylesheet" />
+    <link href="../css/custom.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Modal -->
+    <div
+      id="loadStateModal"
+      class="modal fade"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-sm modal-fullscreen-sm-down"
+      >
+        <div class="modal-content">
+          <!-- <div class="modal-header"></div> -->
+          <div class="modal-body">
+            <div class="d-flex justify-content-center bg-light">
+              <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="modal-footer"></div> -->
+        </div>
+      </div>
+    </div>
+    <div class="d-flex" id="wrapper">
+      <!-- Sidebar-->
+      <div class="border-end bg-white" id="sidebar-wrapper">
+        <div class="sidebar-heading border-bottom bg-light text-center">
+          Оборудование
+        </div>
+        <!-- <div class="list-group list-group-flush">
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#!"
+            >Dashboard</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#!"
+            >Shortcuts</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#!"
+            >Overview</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#!"
+            >Events</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#!"
+            >Profile</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#!"
+            >Status</a
+          >
+        </div> -->
+        <ul class="list-unstyled list-group list-group-flush ps-0">
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category1"
+              aria-expanded="false"
+            >
+              Тепловое оборудование
+            </button>
+            <div class="collapse" id="category1">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0010"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Пароконвектоматы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0008"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Конвекционные печи</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0015"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Расстоечные шкафы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0014"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Плиты (электрические и газовые)</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0009"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Котлы варочные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0016"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Сковороды опрокидывающиеся</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0011"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Печи конвейерные для пиццы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0012"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Печи-коптильни</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0019"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Шкафы и столы тепловые (для подогрева)</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0017"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Термомиксеры</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0018"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Тостеры профессиональные и грили саламандер</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#subcat0013"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Печи на твердом топливе (хосперы)</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Пицца печи</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Фритюрницы и макарановарки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Жарочные поверхности-изгара</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Лава грили и водяные грили</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Плиты индукционные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Тепловое.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Запасные части и аксессуары</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category2"
+              aria-expanded="false"
+            >
+              Электромеханическое оборудование
+            </button>
+            <div class="collapse" id="category2">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0030"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Миксеры погружные (ручные)</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0027"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Картофелечистки и овощечистки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0028"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Куттеры</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0029"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Кухонные процессоры</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0031"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Миксеры планетарные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0032"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Мясорубки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0033"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Овощерезки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0035"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Протирочные машины</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0036"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Слайсеры</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0037"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Соковыжималки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0026"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Вакуумные упаковщики</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0034"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Пилы для мяса и костей</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#subcat0038"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Фаршемешалки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Электромеханическое.html#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Дополнительное оборудование</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category3"
+              aria-expanded="false"
+            >
+              Оборудование для фаст-фуда
+            </button>
+            <div class="collapse" id="category3">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Элекрокипятильники</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Тостеры</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Витрины тепловые</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Гриль саламандер</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Аппараты для хот-догов и гамбургеров</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Грили для кур</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Донер аппараты (газовые и электрические)</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Грили контактные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Грили роликовые</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Жарочные поверхности настольные (изгара)</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Фритюрницы настольные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Гриль контактные прижимные</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!-- <li class="border-top my-3"></li> -->
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category4"
+              aria-expanded="false"
+            >
+              Посудомоечное оборудование
+            </button>
+            <div class="collapse" id="category4">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="Посудомоечное.html#subcat0002"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Купольные посудомоечные машины</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Посудомоечное.html#subcat0007"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Посудомоечные машины с фронтальной загрузкой</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Посудомоечное.html#subcat0003"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Стаканомоечные машины</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Посудомоечное.html#subcat0006"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Тоннельные посудомоечные машины (конвейерного типа)</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Посудомоечное.html#subcat0004"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Столы входные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Посудомоечное.html#subcat0005"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Столы выходные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="Посудомоечное.html#subcat0001"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Души предварительной мойки</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category5"
+              aria-expanded="false"
+            >
+              Холодильное и морозильное оборудование
+            </button>
+            <div class="collapse" id="category5">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#subcat0025"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Шкафы однодверные холодильные и морозильные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#subcat0024"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Шкафы двухдверные холодильные и морозильные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#subcat0020"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Аппараты шоковой заморозки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Барные холодильники</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Винные шкафы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Витрины кондитерские</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Лари</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#subcat0023"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Столы для пиццы и салатов</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#subcat0022"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Комбинированные столы/шкафы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#subcat0021"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Холодильные/морозильные камеры</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Кегераторы</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category6"
+              aria-expanded="false"
+            >
+              Посуда и кухонный инвентарь
+            </button>
+            <div class="collapse" id="category6">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Столовые приборы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Посуда столовая</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Посуда барная</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Посуда нейтральная</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Кухонные принадлежности</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Аксессуары</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category7"
+              aria-expanded="false"
+            >
+              Нейтральное оборудование (изделия из нержавеющей стали)
+            </button>
+            <div class="collapse" id="category7">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Столы и полки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Стеллажи</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Вытяжные зонты</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Тележки сервировочные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Мойки и рукомойники (одно, двух и трехсекционные)</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Шкафы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Стеллажи-шпильки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Подставки</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category8"
+              aria-expanded="false"
+            >
+              Шведский стол
+            </button>
+            <div class="collapse" id="category8">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Мармиты</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Диспенсеры</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Лампы для подогрева блюд</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Поверхности для подогрева блюд</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Салат-бары тепловые и холодильные</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category9"
+              aria-expanded="false"
+            >
+              Кондитерское оборудование
+            </button>
+            <div class="collapse" id="category9">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Витрины</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Противни и подносы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Формы для выпечки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Машина для взбивания сливок</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Аксессуары</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category10"
+              aria-expanded="false"
+            >
+              Хлебопекарное оборудование
+            </button>
+            <div class="collapse" id="category10">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Подовые печи</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Ротационные печи</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Печи комбинированные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Тестомесы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Тестораскаточные машины</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Машины для пасты</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Мукопросеиватели</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Тестоделители</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Тестоокруглители</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category11"
+              aria-expanded="false"
+            >
+              Барное оборудование
+            </button>
+            <div class="collapse" id="category11">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Кофемашины</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Кофемолки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Льдогенераторы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Охладители бокалов</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Сокоохладители и граниторы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Шоколадные фонтаны</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Диспенсеры для мюсли</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Барные комбайны</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Барные модули</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Блендеры профессиональные</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Измельчитель льда</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Миксеры для молочных коктейлей</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category12"
+              aria-expanded="false"
+            >
+              Оснащение гостиниц
+            </button>
+            <div class="collapse" id="category12">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <!-- <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Profile</a
+                  >
+                </li> -->
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category13"
+              aria-expanded="false"
+            >
+              Прачечное оборудование
+            </button>
+            <div class="collapse" id="category13">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Гладильно-сушильные катки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Гладильные катки</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Гладильные прессы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Гладильные столы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Парогенераторы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Пароманекены</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Стирально-сушильные машины</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Стиральные машины</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Сушильные машины</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Упаковщики для белья</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Вспомогательное оборудование для прачечной</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category14"
+              aria-expanded="false"
+            >
+              Оборудование для транспортировки и складирования
+            </button>
+            <div class="collapse" id="category14">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Термоконтейнера</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Термобоксы</a
+                  >
+                </li>
+                <li class="border-top my-1"></li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Банкетные тележки с охлаждением и подогревом</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#category15"
+              aria-expanded="false"
+            >
+              Запчасти
+            </button>
+            <div class="collapse" id="category15">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <!-- <li>
+                  <a
+                    href="#"
+                    class="link-dark d-inline-flex text-decoration-none rounded"
+                    >Profile</a
+                  >
+                </li> -->
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- Page content wrapper-->
+      <div id="page-content-wrapper">
+        <!-- Top navigation-->
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light border-bottom"
+        >
+          <div class="container-fluid">
+            <button class="btn btn-dark" id="sidebarToggle">
+              Все категории
+            </button>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="categories"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="../index.html#home">Главная</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html#aboutUs">О нас</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html#ourServices"
+                    >Услуги</a
+                  >
+                </li>
+                <!-- <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarDropdown"
+                    href="services.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Услуги</a
+                  >
+                  <div
+                    class="dropdown-menu dropdown-menu-end"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <a class="dropdown-item" href="services.html">Услуга1</a>
+                    <a class="dropdown-item" href="services.html">Услуга2</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="services.html">Услуга3</a>
+                  </div>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html#contactUs"
+                    >Контакты</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5">
+          <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-white">
+              <h1 class="display-4 fw-bolder">Магазин SSI-PRO</h1>
+              <p class="lead fw-normal text-white-50 mb-0">
+                Холодильное и морозильное оборудование
+              </p>
+            </div>
+          </div>
+        </header>
+
+        <!-- Section 4 -->
+        <section class="py-5">
+          <div class="container px-4 px-lg-5 mt-5">
+            <h1 class="display-4" id="subcat0025">
+              Шкафы однодверные холодильные и морозильные
+            </h1>
+            <p class="lead">Холодильное и морозильное оборудование</p>
+            <div
+              class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+            >
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Шкафы однодверные/images/Морозильный шкаф Arkto F 0.5–S.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">Морозильный шкаф Arkto F 0.5–S</h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Шкафы однодверные/Морозильный шкаф Arkto F 0.5–S.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0212"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0212"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0212"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0212">
+                            Морозильный шкаф Arkto F 0.5–S
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Шкафы однодверные/Морозильный шкаф Arkto F 0.5–S.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Шкафы однодверные/images/Морозильный шкаф Arkto F 0.7–S.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">Морозильный шкаф Arkto F 0.7–S</h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Шкафы однодверные/Морозильный шкаф Arkto F 0.7–S.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0213"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0213"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0213"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0213">
+                            Морозильный шкаф Arkto F 0.7–S
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Шкафы однодверные/Морозильный шкаф Arkto F 0.7–S.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Шкафы однодверные/images/Морозильный шкаф однодверный объемом 700 литров POLAIR CB107-S.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Морозильный шкаф однодверный объемом 700 литров POLAIR
+                        CB107-S
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Шкафы однодверные/Морозильный шкаф однодверный объемом 700 литров POLAIR CB107-S.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0214"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0214"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0214"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0214">
+                            Морозильный шкаф однодверный объемом 700 литров
+                            POLAIR CB107-S
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Шкафы однодверные/Морозильный шкаф однодверный объемом 700 литров POLAIR CB107-S.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Шкафы однодверные/images/Холодильный шкаф Arkto R 0.5–S.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">Холодильный шкаф Arkto R 0.5–S</h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Шкафы однодверные/Холодильный шкаф Arkto R 0.5–S.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0215"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0215"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0215"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0215">
+                            Холодильный шкаф Arkto R 0.5–S
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Шкафы однодверные/Холодильный шкаф Arkto R 0.5–S.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Шкафы однодверные/images/Холодильный шкаф Arkto R 0.7–S.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">Холодильный шкаф Arkto R 0.7–S</h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Шкафы однодверные/Холодильный шкаф Arkto R 0.7–S.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0216"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0216"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0216"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0216">
+                            Холодильный шкаф Arkto R 0.7–S
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Шкафы однодверные/Холодильный шкаф Arkto R 0.7–S.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Шкафы однодверные/images/Холодильный шкаф однодверный объемом 700 литров POLAIR CM107-S.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Холодильный шкаф однодверный объемом 700 литров POLAIR
+                        CM107-S
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Шкафы однодверные/Холодильный шкаф однодверный объемом 700 литров POLAIR CM107-S.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0217"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0217"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0217"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0217">
+                            Холодильный шкаф однодверный объемом 700 литров
+                            POLAIR CM107-S
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Шкафы однодверные/Холодильный шкаф однодверный объемом 700 литров POLAIR CM107-S.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container px-4 px-lg-5 mt-5">
+            <h1 class="display-4" id="subcat0024">
+              Шкафы двухдверные холодильные и морозильные
+            </h1>
+            <p class="lead">Холодильное и морозильное оборудование</p>
+            <div
+              class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+            >
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Шкафы двухдверные/images/Морозильный шкаф 2-х дверный объемом 1400 литров ARKTO F 1,4-S.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Морозильный шкаф 2-х дверный объемом 1400 литров ARKTO F
+                        1,4-S
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Шкафы двухдверные/Морозильный шкаф 2-х дверный объемом 1400 литров ARKTO F 1,4-S.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0207"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0207"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0207"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0207">
+                            Морозильный шкаф 2-х дверный объемом 1400 литров
+                            ARKTO F 1,4-S
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Шкафы двухдверные/Морозильный шкаф 2-х дверный объемом 1400 литров ARKTO F 1,4-S.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Шкафы двухдверные/images/Морозильный шкаф 2-х дверный объемом 1400 литров POLAIR CB114-S.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Морозильный шкаф 2-х дверный объемом 1400 литров POLAIR
+                        CB114-S
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Шкафы двухдверные/Морозильный шкаф 2-х дверный объемом 1400 литров POLAIR CB114-S.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0208"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0208"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0208"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0208">
+                            Морозильный шкаф 2-х дверный объемом 1400 литров
+                            POLAIR CB114-S
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Шкафы двухдверные/Морозильный шкаф 2-х дверный объемом 1400 литров POLAIR CB114-S.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Шкафы двухдверные/images/Холодильный шкаф 2-х дверный объемом 1000 литров POLAIR CM110-S.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Холодильный шкаф 2-х дверный объемом 1000 литров POLAIR
+                        CM110-S
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Шкафы двухдверные/Холодильный шкаф 2-х дверный объемом 1000 литров POLAIR CM110-S.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0209"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0209"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0209"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0209">
+                            Холодильный шкаф 2-х дверный объемом 1000 литров
+                            POLAIR CM110-S
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Шкафы двухдверные/Холодильный шкаф 2-х дверный объемом 1000 литров POLAIR CM110-S.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Шкафы двухдверные/images/Холодильный шкаф 2-х дверный объемом 1400 литров ARKTO R 1,4-S.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Холодильный шкаф 2-х дверный объемом 1400 литров ARKTO R
+                        1,4-S
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Шкафы двухдверные/Холодильный шкаф 2-х дверный объемом 1400 литров ARKTO R 1,4-S.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0210"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0210"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0210"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0210">
+                            Холодильный шкаф 2-х дверный объемом 1400 литров
+                            ARKTO R 1,4-S
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Шкафы двухдверные/Холодильный шкаф 2-х дверный объемом 1400 литров ARKTO R 1,4-S.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Шкафы двухдверные/images/Холодильный шкаф 2-х дверный объемом 1400 литров POLAIR CM114-S.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Холодильный шкаф 2-х дверный объемом 1400 литров POLAIR
+                        CM114-S
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Шкафы двухдверные/Холодильный шкаф 2-х дверный объемом 1400 литров POLAIR CM114-S.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0211"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0211"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0211"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0211">
+                            Холодильный шкаф 2-х дверный объемом 1400 литров
+                            POLAIR CM114-S
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Шкафы двухдверные/Холодильный шкаф 2-х дверный объемом 1400 литров POLAIR CM114-S.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container px-4 px-lg-5 mt-5">
+            <h1 class="display-4" id="subcat0022">
+              Холодильные и морозильные столы
+            </h1>
+            <p class="lead">Холодильное и морозильное оборудование</p>
+            <div
+              class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+            >
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Столы/images/Холодильный стол 2-х дверный POLAIR TM2-GС 1050698D.png"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Холодильный стол 2-х дверный POLAIR TM2-GС 1050698D
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Столы/Холодильный стол 2-х дверный POLAIR TM2-GС 1050698D.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0198"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0198"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0198"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0198">
+                            Холодильный стол 2-х дверный POLAIR TM2-GС 1050698D
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Столы/Холодильный стол 2-х дверный POLAIR TM2-GС 1050698D.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Столы/images/Холодильный стол 3-х дверный POLAIR TM3GN-G 1050420D.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Холодильный стол 3-х дверный POLAIR TM3GN-G 1050420D
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Столы/Холодильный стол 3-х дверный POLAIR TM3GN-G 1050420D.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0199"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0199"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0199"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0199">
+                            Холодильный стол 3-х дверный POLAIR TM3GN-G 1050420D
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Столы/Холодильный стол 3-х дверный POLAIR TM3GN-G 1050420D.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Столы/images/Холодильный стол двухдверный среднетемпературный POLAIR TM2GN-G.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Холодильный стол двухдверный среднетемпературный POLAIR
+                        TM2GN-G
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Столы/Холодильный стол двухдверный среднетемпературный POLAIR TM2GN-G.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0200"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0200"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0200"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0200">
+                            Холодильный стол двухдверный среднетемпературный
+                            POLAIR TM2GN-G
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Столы/Холодильный стол двухдверный среднетемпературный POLAIR TM2GN-G.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Столы/images/Холодильный стол двухдверный среднетемпературный POLAIR TM2GN-GC.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Холодильный стол двухдверный среднетемпературный POLAIR
+                        TM2GN-GC
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Столы/Холодильный стол двухдверный среднетемпературный POLAIR TM2GN-GC.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0201"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0201"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0201"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0201">
+                            Холодильный стол двухдверный среднетемпературный
+                            POLAIR TM2GN-GC
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Столы/Холодильный стол двухдверный среднетемпературный POLAIR TM2GN-GC.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Столы/images/Холодильный стол трехдверный среднетемпературный POLAIR TM3GN-GC.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Холодильный стол трехдверный среднетемпературный POLAIR
+                        TM3GN-GC
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Столы/Холодильный стол трехдверный среднетемпературный POLAIR TM3GN-GC.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0202"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0202"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0202"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0202">
+                            Холодильный стол трехдверный среднетемпературный
+                            POLAIR TM3GN-GC
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Столы/Холодильный стол трехдверный среднетемпературный POLAIR TM3GN-GC.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container px-4 px-lg-5 mt-5">
+            <h1 class="display-4" id="subcat0020">
+              Аппараты шоковой заморозки
+            </h1>
+            <p class="lead">Холодильное и морозильное оборудование</p>
+            <div
+              class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+            >
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Аппараты шоковой заморозки/images/Аппарат шоковой заморозки на 5 уровней загрузки Polair CR5-G.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Аппарат шоковой заморозки на 5 уровней загрузки Polair
+                        CR5-G
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Аппараты шоковой заморозки/Аппарат шоковой заморозки на 5 уровней загрузки Polair CR5-G.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0189"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0189"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0189"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0189">
+                            Аппарат шоковой заморозки на 5 уровней загрузки
+                            Polair CR5-G
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Аппараты шоковой заморозки/Аппарат шоковой заморозки на 5 уровней загрузки Polair CR5-G.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Аппараты шоковой заморозки/images/Аппарат шоковой заморозки на 10 уровней загрузки Polair CR10-G.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Аппарат шоковой заморозки на 10 уровней загрузки Polair
+                        CR10-G
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Аппараты шоковой заморозки/Аппарат шоковой заморозки на 10 уровней загрузки Polair CR10-G.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0190"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0190"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0190"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0190">
+                            Аппарат шоковой заморозки на 10 уровней загрузки
+                            Polair CR10-G
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Аппараты шоковой заморозки/Аппарат шоковой заморозки на 10 уровней загрузки Polair CR10-G.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Аппараты шоковой заморозки/images/Аппарат шоковой заморозки на 10 уровней загрузки Polair CR10-L.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Аппарат шоковой заморозки на 10 уровней загрузки Polair
+                        CR10-L
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Аппараты шоковой заморозки/Аппарат шоковой заморозки на 10 уровней загрузки Polair CR10-L.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0191"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0191"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0191"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0191">
+                            Аппарат шоковой заморозки на 10 уровней загрузки
+                            Polair CR10-L
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Аппараты шоковой заморозки/Аппарат шоковой заморозки на 10 уровней загрузки Polair CR10-L.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/no-image.png"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Камера шоковой заморозки на 2 тележки POLAIR ВСF 40.1.T2
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Аппараты шоковой заморозки/Камера шоковой заморозки на 2 тележки POLAIR ВСF 40.1.T2.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0192"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0192"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0192"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0192">
+                            Камера шоковой заморозки на 2 тележки POLAIR ВСF
+                            40.1.T2
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Аппараты шоковой заморозки/Камера шоковой заморозки на 2 тележки POLAIR ВСF 40.1.T2.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/no-image.png"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Камера шоковой заморозки на одну тележку POLAIR ВСF
+                        20.1.T1
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Аппараты шоковой заморозки/Камера шоковой заморозки на одну тележку POLAIR ВСF 20.1.T1.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0193"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0193"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0193"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0193">
+                            Камера шоковой заморозки на одну тележку POLAIR ВСF
+                            20.1.T1
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Аппараты шоковой заморозки/Камера шоковой заморозки на одну тележку POLAIR ВСF 20.1.T1.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container px-4 px-lg-5 mt-5">
+            <h1 class="display-4" id="subcat0023">Столы для пиццы и салатов</h1>
+            <p class="lead">Холодильное и морозильное оборудование</p>
+            <div
+              class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+            >
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Столы для пиццы и салатов/images/Холодильный стол 2-х дверный для приготовления пиццы Polair TM2pizza-G.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Холодильный стол 2-х дверный для приготовления пиццы
+                        Polair TM2pizza-G
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Столы для пиццы и салатов/Холодильный стол 2-х дверный для приготовления пиццы Polair TM2pizza-G.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0203"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0203"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0203"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0203">
+                            Холодильный стол 2-х дверный для приготовления пиццы
+                            Polair TM2pizza-G
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Столы для пиццы и салатов/Холодильный стол 2-х дверный для приготовления пиццы Polair TM2pizza-G.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Столы для пиццы и салатов/images/Холодильный стол 3-х дверный для приготовления пиццы Polair TM3pizza-G.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Холодильный стол 3-х дверный для приготовления пиццы
+                        Polair TM3pizza-G
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Столы для пиццы и салатов/Холодильный стол 3-х дверный для приготовления пиццы Polair TM3pizza-G.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0204"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0204"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0204"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0204">
+                            Холодильный стол 3-х дверный для приготовления пиццы
+                            Polair TM3pizza-G
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Столы для пиццы и салатов/Холодильный стол 3-х дверный для приготовления пиццы Polair TM3pizza-G.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Столы для пиццы и салатов/images/Холодильный стол 3-х дверный для приготовления пиццы Polair TMi3pizza-G.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Холодильный стол 3-х дверный для приготовления пиццы
+                        Polair TMi3pizza-G
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Столы для пиццы и салатов/Холодильный стол 3-х дверный для приготовления пиццы Polair TMi3pizza-G.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0205"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0205"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0205"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0205">
+                            Холодильный стол 3-х дверный для приготовления пиццы
+                            Polair TMi3pizza-G
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Столы для пиццы и салатов/Холодильный стол 3-х дверный для приготовления пиццы Polair TMi3pizza-G.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Столы для пиццы и салатов/images/Холодильный стол 4-х дверный для приготовления пиццы Polair TM4pizza-G.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Холодильный стол 4-х дверный для приготовления пиццы
+                        Polair TM4pizza-G
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Столы для пиццы и салатов/Холодильный стол 4-х дверный для приготовления пиццы Polair TM4pizza-G.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0206"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0206"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0206"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0206">
+                            Холодильный стол 4-х дверный для приготовления пиццы
+                            Polair TM4pizza-G
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Столы для пиццы и салатов/Холодильный стол 4-х дверный для приготовления пиццы Polair TM4pizza-G.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container px-4 px-lg-5 mt-5">
+            <h1 class="display-4" id="subcat0021">
+              Холодильные и морозильные камеры
+            </h1>
+            <p class="lead">Холодильное и морозильное оборудование</p>
+            <div
+              class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+            >
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Камеры/images/Холодильная камера объемом 6,61 куб.м. POLAIR КХН-6,61.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Холодильная камера объемом 6,61 куб.м. POLAIR КХН-6,61
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Камеры/Холодильная камера объемом 6,61 куб.м. POLAIR КХН-6,61.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0194"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0194"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0194"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0194">
+                            Холодильная камера объемом 6,61 куб.м. POLAIR
+                            КХН-6,61
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Камеры/Холодильная камера объемом 6,61 куб.м. POLAIR КХН-6,61.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Камеры/images/Холодильная камера объемом 7,71 куб.м. (1960х2260х2200) 80мм.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Холодильная камера объемом 7,71 куб.м. (1960х2260х2200)
+                        80мм
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Камеры/Холодильная камера объемом 7,71 куб.м. (1960х2260х2200) 80мм.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0195"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0195"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0195"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0195">
+                            Холодильная камера объемом 7,71 куб.м.
+                            (1960х2260х2200) 80мм
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Камеры/Холодильная камера объемом 7,71 куб.м. (1960х2260х2200) 80мм.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Камеры/images/Холодильная камера объемом 8,81 куб.м. (1960х2560х2200) 80мм.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Холодильная камера объемом 8,81 куб.м. (1960х2560х2200)
+                        80мм
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Камеры/Холодильная камера объемом 8,81 куб.м. (1960х2560х2200) 80мм.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0196"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0196"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0196"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0196">
+                            Холодильная камера объемом 8,81 куб.м.
+                            (1960х2560х2200) 80мм
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Камеры/Холодильная камера объемом 8,81 куб.м. (1960х2560х2200) 80мм.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-5">
+                <div class="card h-100">
+                  <!-- Product image-->
+                  <img
+                    class="card-img-top"
+                    src="../assets/categories/Холодильное и морозильное/Камеры/images/Холодильная камера объемом 11,75 куб.м. (2560х2560х2200) 80мм.jpg"
+                    loading="lazy"
+                    alt="..."
+                  />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <!-- Product name-->
+                      <h5 class="fw-bolder">
+                        Холодильная камера объемом 11,75 куб.м. (2560х2560х2200)
+                        80мм
+                      </h5>
+                      <!-- Product price-->
+                      <!-- 2,000,000 UZS -->
+                    </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a
+                        class="btn btn-outline-dark mt-auto"
+                        href="../assets/categories/Холодильное и морозильное/Камеры/Холодильная камера объемом 11,75 куб.м. (2560х2560х2200) 80мм.pdf"
+                        data-bs-toggle="modal"
+                        data-bs-target="#item0197"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="item0197"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="item0197"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="item0197">
+                            Холодильная камера объемом 11,75 куб.м.
+                            (2560х2560х2200) 80мм
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close btn-dark"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe
+                            src="../assets/categories/Холодильное и морозильное/Камеры/Холодильная камера объемом 11,75 куб.м. (2560х2560х2200) 80мм.pdf"
+                            loading="lazy"
+                            width="100%"
+                            height="500vh"
+                          ></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Закрыть
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="b-example-divider"></div>
+
+        <!-- Footer-->
+        <div class="container sean-footer">
+          <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item">
+                <a href="../index.html#home" class="nav-link px-2">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a href="../index.html#aboutUs" class="nav-link px-2">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a href="../index.html#ourServices" class="nav-link px-2"
+                  >Услуги</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="../index.html#contactUs" class="nav-link px-2"
+                  >Контакты</a
+                >
+              </li>
+            </ul>
+            <p class="text-center text-muted">&copy; 2022. ООО "SSI-PRO"</p>
+            <p class="d-flex align-items-center justify-content-center">
+              <a
+                href="../index.html#home"
+                class="link-dark text-decoration-none"
+              >
+                <img src="../assets/logo.svg" alt="logo" height="40" />
+              </a>
+            </p>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="../js/scripts.js"></script>
+    <script src="../js/sidebars.js"></script>
+  </body>
+</html>

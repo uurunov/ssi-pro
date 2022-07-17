@@ -52,21 +52,24 @@ html {
 }
 
 header {
-  background: url("../assets/header.jpg") no-repeat;
+  background-image: url("../assets/header.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-blend-mode: overlay;
   background-size: cover;
 }
 
 #aboutUs {
-  background: url("../assets/about.jpg") no-repeat;
+  background-image: url("../assets/about.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: #fff;
 }
 
 #contactUs {
-  background: url("../assets/contact.jpg") no-repeat;
+  background-image: url("../assets/contact.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: #fff;

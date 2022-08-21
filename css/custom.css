@@ -52,11 +52,12 @@ html {
 }
 
 header {
-  background-image: url("../assets/header.jpg");
+  background-image: url("../assets/header1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-blend-mode: overlay;
   background-size: cover;
+  background-position: center;
 }
 
 #aboutUs {

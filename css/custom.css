@@ -97,3 +97,7 @@ header {
 .offcanvas-body button {
   text-align: left;
 }
+
+.modal-body.size {
+  height: 70vh;
+}

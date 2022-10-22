@@ -101,3 +101,47 @@ header {
 .modal-body.size {
   height: 70vh;
 }
+
+.bg-color {
+  background-color: #fcfcfc;
+}
+
+.brand-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0.25rem;
+  padding: 0.5em;
+  transition: all 0.5s ease-in-out;
+  height: 150px;
+  width: 300px;
+}
+
+.brand-image-container:hover {
+  background: rgba(247, 247, 247, 1);
+}
+
+.brand-image,
+.partner-image {
+  height: 100%;
+  max-width: 250px;
+  object-fit: contain;
+}
+
+.partner-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  padding: 0.5em;
+  transition: all 0.5s ease-in-out;
+  height: 150px;
+  width: 300px;
+}
+
+.partner-image-container:hover {
+  /* background: rgba(0, 0, 0, 0.8); */
+  background: rgba(255, 255, 255, 0.8);
+}

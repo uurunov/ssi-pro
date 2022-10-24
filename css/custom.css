@@ -122,10 +122,15 @@ header {
   background: rgba(247, 247, 247, 1);
 }
 
-.brand-image,
-.partner-image {
+.brand-image {
   height: 100%;
   max-width: 250px;
+  object-fit: contain;
+}
+
+.partner-image {
+  height: 100%;
+  max-width: 200px;
   object-fit: contain;
 }
 
@@ -133,15 +138,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.25rem;
   padding: 0.5em;
-  transition: all 0.5s ease-in-out;
   height: 150px;
-  width: 300px;
-}
-
-.partner-image-container:hover {
-  /* background: rgba(0, 0, 0, 0.8); */
-  background: rgba(255, 255, 255, 0.8);
+  width: 250px;
+  box-shadow: inset 0 0 5px 1px rgb(0 0 0 / 20%);
 }
